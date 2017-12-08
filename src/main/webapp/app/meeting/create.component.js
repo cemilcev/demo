@@ -3,6 +3,7 @@ window.CreateComponent = React.createClass({
         return {
             name: '',
             description: '',
+            departments: [],
             successCreation: null
         };
     },
